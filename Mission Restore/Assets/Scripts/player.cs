@@ -92,7 +92,7 @@ public class player : MonoBehaviour {
 
 	void OnGUI(){
 		GUI.color = Color.black;
-		GUI.Label (new Rect(0, 0, 100, 25), "Score: "+score, mystyle);
+		GUI.Label (new Rect(50, 30, 100, 25), "Score: "+score, mystyle);
 
 	}
 
