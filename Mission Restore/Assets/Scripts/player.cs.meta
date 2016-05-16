@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 73e2be43c476ffb49935c0327370a7da
+timeCreated: 1462091497
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Megatext: {fileID: 176862, guid: 194c4a99ed0bf9047a99fad52d942982, type: 2}
+  - Jumptext: {fileID: 155524, guid: 95e3c197f940f054dbc1d1f338a3f253, type: 2}
+  - Minitext: {fileID: 117604, guid: f8160fdae1e10ce48a0d3c53978e018f, type: 2}
+  - MyFont: {fileID: 12800000, guid: a054f03ff35deec41874274bc749978a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
