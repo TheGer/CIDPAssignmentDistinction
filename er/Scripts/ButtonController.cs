@@ -1,34 +1,42 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class ButtonController : MonoBehaviour {
 
+    // this code basically loads the scenes when on clicked
+
+    public void mainmenu()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void ButtonSpace()
     {
-        Application.LoadLevel("Instructions");
+        SceneManager.LoadScene("Instructions");
     }
 
     public void Nbutton()
     {
-        Application.LoadLevel(2);
+        SceneManager.LoadScene(2);
     }
 
     public void Bodybutton()
     {
-        Application.LoadLevel(4);
+        SceneManager.LoadScene(4);
     }
     public void headbutton()
     {
-        Application.LoadLevel(9);
+        SceneManager.LoadScene(9);
     }
     public void Bonebutton()
     {
-        Application.LoadLevel(13);
+        SceneManager.LoadScene(13);
     }
 
     public void Gamebutton()
     {
-        Application.LoadLevel(3);
+        SceneManager.LoadScene(3);
     }
 
     public void Exitbutton()
@@ -38,7 +46,7 @@ public class ButtonController : MonoBehaviour {
 
     public void startGamebutton()
     {
-        Application.LoadLevel(17);
+        SceneManager.LoadScene(17);
     }
 
 
